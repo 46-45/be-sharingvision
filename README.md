@@ -1,3 +1,5 @@
+Daniel Silalahi
+
 Backend Sharing Vision
 
 Stack : Python Django Framework, MySql
