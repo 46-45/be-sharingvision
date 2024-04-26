@@ -5,20 +5,20 @@ Backend Sharing Vision
 Stack : Python Django Framework, MySql
 
 Install configuration :
-- Mysql : pip install mysqlclient
-- Django : pip install django
-- Django REST Framework : pip install djangorestframework
+1. Mysql : pip install mysqlclient
+2. Django : pip install django
+3. Django REST Framework : pip install djangorestframework
 
 
 Instalation :
-- Clone repository
-- Open repository in your code editor
-- Make sure the database settings in microservice/settings.py are correct, like ENGINE, NAME, USER, PASSWORD
-- Create the initial database migrations/Apply the migrations to MySQL: : python manage.py migrate
-- Create migrations for your model changes : python manage.py makemigrations articles
-- Apply the migrations to your database : python manage.py migrate articles
-- Run : python manage.py runserver (like http://127.0.0.1:8000/)
-- Test your API 
+1. Clone repository
+2. Open repository in your code editor
+3. Make sure the database settings in microservice/settings.py are correct, like ENGINE, NAME, USER, PASSWORD
+4. Create the initial database migrations/Apply the migrations to MySQL: : python manage.py migrate
+5. Create migrations for your model changes : python manage.py makemigrations articles
+6. Apply the migrations to your database : python manage.py migrate articles
+7. Run : python manage.py runserver (like http://127.0.0.1:8000/)
+8. Test your API 
 
 Testing with Postman
 1. Create a New Article (POST /article/)
