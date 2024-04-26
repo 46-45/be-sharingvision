@@ -8,6 +8,8 @@ Install configuration :
 1. Mysql : pip install mysqlclient
 2. Django : pip install django
 3. Django REST Framework : pip install djangorestframework
+4. Django Cors Headers : pip install django-cors-headers
+
 
 
 Instalation :
